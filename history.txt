@@ -1,0 +1,10 @@
+```
+   26  python3 -m venv .VENV
+   27  source .VENV/bin/activate
+```
+
+```
+   28  pip install --upgrade pip pipdeptree
+   29  pip install flask gunicorn
+   30  pipdeptree | less
+```
